@@ -1,0 +1,109 @@
+body{
+    overflow-x: hidden;
+    background-color: aquamarine;
+}
+.head{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+   }
+   .img{
+    box-shadow:  0px 10px 10px black;
+    border-radius: 20px 20px;
+   }
+   .site{
+    margin-top: 30px;
+   }
+   
+   .container{
+    margin-top: 20px;
+   }
+   .navbar-brand{
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+   }
+   .nav-item {
+    color: white;
+    font-size: 20px;
+   }  
+
+   button{
+    margin-top: -15px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+   }
+   button a{
+    color: white;
+    text-decoration: none;
+
+   }
+    .navbar-nav{
+    margin-left: 150px;
+    margin-top: -15px;
+   }
+    .navbar-nav li{
+    margin-right: 20px;
+   }
+   .travel{
+    width: 80px;
+    height: 80px;
+    border-radius: 150px;
+    margin-left: 50px;
+   }
+
+
+   /*Gallery*/
+
+.gallery{
+    width: 100%;
+    padding: 35px 0 50px 0;
+    margin-left: -10px;
+}
+
+.gallery .box{
+    width: 95%;
+    margin: 50px auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.gallery .box .image{
+    width: 460px;
+    height: 350px;
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 2px 2px 8px black;
+}
+
+.gallery .box .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.gallery .box .image:hover img{
+    transform: scale(1.1);
+}
+
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #0cc1e1;
+    border-radius: 30px;
+}

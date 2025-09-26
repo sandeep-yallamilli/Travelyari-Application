@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+.head{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+   }
+   .img{
+    box-shadow:  0px 10px 10px black;
+    border-radius: 20px 20px;
+   }
+   .site{
+    margin-top: 30px;
+   }
+   
+   .container{
+    margin-top: 20px;
+   }
+   .navbar-brand{
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+   }
+   .nav-item {
+    color: white;
+    font-size: 20px;
+   }  
+
+   .contact button{
+    margin-top: -15px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+   }
+    .contact button a{
+    color: white;
+    text-decoration: none;
+
+   }
+    .navbar-nav{
+    margin-left: 150px;
+    margin-top: -15px;
+   }
+    .navbar-nav li{
+    margin-right: 20px;
+   }
+   .travel{
+    width: 80px;
+    height: 80px;
+    border-radius: 150px;
+    margin-left: 50px;
+   }
+
+header {
+    background: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #B9D9EB;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.response-message {
+    margin-top: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #007BFF;
+    color: black;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #0cc1e1;
+    border-radius: 30px;
+}

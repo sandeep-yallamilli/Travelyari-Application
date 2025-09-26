@@ -1,0 +1,80 @@
+body{
+    overflow-x: hidden;
+    background-color: rgb(148, 194, 234);
+   }
+   .head{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+   }
+   .img{
+    box-shadow:  0px 10px 10px black;
+    border-radius: 20px 20px;
+   }
+   .site{
+    margin-top: 30px;
+   }
+   .site a{
+    text-decoration: none;
+   }
+   
+   .container{
+    margin-top: 20px;
+   }
+   .navbar-brand{
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+   }
+   .nav-item {
+    color: white;
+    font-size: 20px;
+   }  
+
+   button{
+    margin-top: -15px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+   }
+   button a{
+    color: white;
+    text-decoration: none;
+
+   }
+   
+    .navbar-nav{
+    margin-left: 150px;
+    margin-top: -15px;
+   }
+    .navbar-nav li{
+    margin-right: 20px;
+   }
+   .travel{
+    width: 80px;
+    height: 80px;
+    border-radius: 150px;
+    margin-left: 50px;
+   }
+   footer {
+    text-align: center;
+    padding: 10px;
+    background: #007BFF;
+    color: black;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #0cc1e1;
+    border-radius: 30px;
+}

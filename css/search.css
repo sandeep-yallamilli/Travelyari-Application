@@ -1,0 +1,141 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+@media screen and (min-width: 968px) {
+  :root {
+    font-size: 20px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  background-size: cover;
+  overflow-y: hidden;
+  
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 100px;
+  font-family:algerian;
+  margin-top: 120px;
+  margin-left: 10px;
+  color: #000;
+}
+h2{
+  display: flex;
+  justify-content: center;
+  font-size: 50px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #000;
+}
+/*=============== SEARCH ===============*/
+.container {
+  height: 100vh;
+  margin-inline: 1.5rem;
+  display: grid;
+  place-items: center;
+  margin-top: -100px;
+}
+
+.search {
+  position: relative;
+  width: 76px;
+  height: 76px;
+  background-color: white;
+  box-shadow: 0 4px 24px hsla(222, 68%, 12%, 0.1);
+  border-radius: 4rem;
+  padding: 10px;
+  overflow: hidden;
+  transition: width 0.5s cubic-bezier(0.9, 0, 0.3, 0.9);
+}
+.search__input {
+  border: none;
+  outline: none;
+  width: calc(100% - 64px);
+  height: 100%;
+  border-radius: 4rem;
+  padding-left: 14px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 1.5s;
+}
+.search__input:-webkit-autofill {
+  box-shadow: 0 0 0 100px white inset;
+}
+.search__button {
+  width: 56px;
+  height: 56px;
+  background-color: rgb(62, 114, 234);
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 10px;
+  margin: auto;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: transform 0.6s cubic-bezier(0.9, 0, 0.3, 0.9);
+}
+.search__icon, .search__close {
+  color: white;
+  font-size: 1.5rem;
+  position: absolute;
+  transition: opacity 0.5s cubic-bezier(0.9, 0, 0.3, 0.9);
+}
+.search__close {
+  opacity: 0;
+}
+
+/* Search animated */
+.show-search {
+  width: 100%;
+}
+.show-search .search__input {
+  opacity: 1;
+  pointer-events: initial;
+}
+.show-search .search__button {
+  transform: rotate(90deg);
+}
+.show-search .search__icon {
+  opacity: 0;
+}
+.show-search .search__close {
+  opacity: 1;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For medium devices */
+@media screen and (min-width: 576px) {
+  .show-search {
+    width: 450px;
+  }
+}
+
+button{
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: -500px;
+ }
+ button a{
+  color: white;
+  text-decoration: none;
+
+}
